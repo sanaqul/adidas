@@ -1,0 +1,204 @@
+@media (max-width:1024px) {
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .wrapper-box {
+        display: block;
+        transform: translateY(-30px);
+        text-align: center;
+    }
+    
+    .header__bottom {
+        background: url(../img/Nike-Adapt-BB\ 1.jpg)no-repeat center/cover;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .left-snickers {
+        width: 100%;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 6px;
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    .right-snickers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .right-inner {
+        border-radius: 6px;
+        background-color: #fff;
+        width: 35%;
+        text-align: center;
+        padding: 15px;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .right-inner:nth-child(1),
+    .right-inner:nth-child(3){
+        margin-right: 30px;
+    }
+}
+
+@media (max-width:768px){
+
+    .left__img {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .right-inner {
+        border-radius: 6px;
+        background-color: #fff;
+        width: 45%;
+        text-align: center;
+        padding: 15px;
+        justify-content: space-evenly;
+        height: 50%;
+    }
+
+    .menu-icon{
+        display: block;
+        color: #fff;
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .header__list{
+        position: fixed;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: flex-end;
+        top: 0;
+        bottom: 0;
+        right: -100%;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-left: 30px;
+        backdrop-filter: blur(15px);
+        box-shadow: 1px 1px 5px black;
+        transition: right 0.3s linear;
+    }
+    
+    .header__item{
+        margin: 0 !important;
+    }
+
+    .menu-icon:focus+.header__list{
+        right:0;
+    }
+
+}
+    @media (max-width:767px){
+        .footer__box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .footer__nav {
+            display: flex;
+            margin-top: 30px;
+        }
+    
+        .form {
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            margin: 0 auto;
+        }  
+    }
+
+
+@media (max-width:515px){
+    .left__img {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .right-inner {
+        border-radius: 6px;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        justify-content: space-evenly;
+        height: 45%;
+        margin-bottom: 30px;
+    }
+
+    .right-inner:nth-child(1), .right-inner:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .footer__box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__nav {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
