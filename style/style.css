@@ -99,7 +99,10 @@ section{
     margin-top: 15px;
     text-align: left;
     width: 100%;
-    
+}
+
+.right-inner:hover .text{
+    color: white;
 }
 
 .right-inner{
@@ -109,6 +112,11 @@ section{
     text-align: center;
     padding: 15px;
     justify-content: space-around;
+    transition: 0.3s linear;
+}
+
+.right-inner:hover{
+    background: #544294;
 }
 
 .title{
@@ -117,6 +125,10 @@ section{
     text-align: center;
     color: #2C2A2A;
     margin: 12px 0;
+}
+
+.right-inner:hover .title{
+    color: white;
 }
 
 .wrapper-box{
@@ -133,6 +145,44 @@ section{
 .right-inner:nth-child(1),
 .right-inner:nth-child(2){
     margin-bottom: 30px;
+}
+
+.block-box{
+    width: 800px;
+    height: 100px;
+    background: #544294;
+    border-radius: 30px;
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.block{
+    padding-bottom: 30px;
+}
+
+.block__text{
+    color: white;
+}
+
+.block-box{
+    width: 800px;
+    height: 100px;
+    background: #544294;
+    border-radius: 30px;
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.block{
+    padding-bottom: 30px;
+}
+
+.block__text{
+    color: white;
 }
 
 .form{
