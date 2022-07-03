@@ -82,6 +82,15 @@ body{
     padding: 15px;
     border-radius: 6px;
     margin-right: 30px;
+    transition: 0.3s linear;
+}
+
+.left-snickers:hover .title1{
+    color: white;
+}
+
+.left-snickers:hover{
+    background: #544294;
 }
 
 section{
@@ -99,6 +108,10 @@ section{
     margin-top: 15px;
     text-align: left;
     width: 100%;
+}
+
+.left-snickers:hover .text{
+    color: white;
 }
 
 .right-inner:hover .text{
